@@ -14,6 +14,7 @@
 		8DD9BA1E25B829DE00D0D30E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9BA1D25B829DE00D0D30E /* Helper.swift */; };
 		8DD9BA2125B82AD700D0D30E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9BA2025B82AD700D0D30E /* Order.swift */; };
 		8DD9BA2425B82AF400D0D30E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9BA2325B82AF400D0D30E /* Menu.swift */; };
+		8DD9BA2725B82C3900D0D30E /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9BA2625B82C3900D0D30E /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8DD9BA1D25B829DE00D0D30E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		8DD9BA2025B82AD700D0D30E /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		8DD9BA2325B82AF400D0D30E /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		8DD9BA2625B82C3900D0D30E /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8DD9BA1D25B829DE00D0D30E /* Helper.swift */,
 				8DD9BA2025B82AD700D0D30E /* Order.swift */,
 				8DD9BA2325B82AF400D0D30E /* Menu.swift */,
+				8DD9BA2625B82C3900D0D30E /* menu.json */,
 				8DD9BA1125B825E500D0D30E /* Assets.xcassets */,
 				8DD9BA1625B825E500D0D30E /* Info.plist */,
 				8DD9BA1325B825E500D0D30E /* Preview Content */,
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD9BA2725B82C3900D0D30E /* menu.json in Resources */,
 				8DD9BA1525B825E500D0D30E /* Preview Assets.xcassets in Resources */,
 				8DD9BA1225B825E500D0D30E /* Assets.xcassets in Resources */,
 			);
