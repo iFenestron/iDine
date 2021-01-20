@@ -12,6 +12,7 @@
 		8DD9BA1225B825E500D0D30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9BA1125B825E500D0D30E /* Assets.xcassets */; };
 		8DD9BA1525B825E500D0D30E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9BA1425B825E500D0D30E /* Preview Assets.xcassets */; };
 		8DD9BA1E25B829DE00D0D30E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9BA1D25B829DE00D0D30E /* Helper.swift */; };
+		8DD9BA2125B82AD700D0D30E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9BA2025B82AD700D0D30E /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8DD9BA1425B825E500D0D30E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DD9BA1625B825E500D0D30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DD9BA1D25B829DE00D0D30E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		8DD9BA2025B82AD700D0D30E /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8DD9BA0D25B825E200D0D30E /* iDineApp.swift */,
 				8DD9BA0F25B825E200D0D30E /* ContentView.swift */,
 				8DD9BA1D25B829DE00D0D30E /* Helper.swift */,
+				8DD9BA2025B82AD700D0D30E /* Order.swift */,
 				8DD9BA1125B825E500D0D30E /* Assets.xcassets */,
 				8DD9BA1625B825E500D0D30E /* Info.plist */,
 				8DD9BA1325B825E500D0D30E /* Preview Content */,
@@ -143,6 +146,7 @@
 			files = (
 				8DD9BA1025B825E200D0D30E /* ContentView.swift in Sources */,
 				8DD9BA0E25B825E200D0D30E /* iDineApp.swift in Sources */,
+				8DD9BA2125B82AD700D0D30E /* Order.swift in Sources */,
 				8DD9BA1E25B829DE00D0D30E /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
