@@ -21,6 +21,7 @@ struct OrderView: View {
                                     Text("$\(item.price)")
                                 }
                             }
+                            .onDelete(perform: deleteItems)
                         }
 
                         Section {
@@ -28,12 +29,20 @@ struct OrderView: View {
                                 Text("Place Order")
                             }
                         }
+                        .disabled(order.items.isEmpty)
                     }
                     .navigationBarTitle("Order")
                     .listStyle(GroupedListStyle())
+                    .navigationBarItems(trailing: EditButton())
                 }
     }
+    
+    func deleteItems(at offsets: IndexSet) {
+        order.items.remove(atOffsets: offsets)
+    }
 }
+
+
 
 struct OrderView_Previews: PreviewProvider {
     static let order = Order()
