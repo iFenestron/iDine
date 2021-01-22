@@ -17,6 +17,12 @@ struct CheckoutView: View {
     @State private var paymentType = 0
     @State private var tipAmount = 1
     
+    var totalPrice: Double {
+        let total = Double(order.total)
+        let tipValue = total / 100 * Double(Self.tipAmounts[tipAmount])
+        return total + tipValue
+    }
+    
     var body: some View {
         Form {
             Section {
@@ -28,7 +34,7 @@ struct CheckoutView: View {
                 Toggle(isOn: $addLoyaltyDetails.animation()) {
                     Text("Add iDine loyalty card")
                 }
-
+                
                 if addLoyaltyDetails {
                     TextField("Enter your iDine ID", text: $loyaltyNumber)
                 }
@@ -41,7 +47,7 @@ struct CheckoutView: View {
                 }.pickerStyle(SegmentedPickerStyle())
             }
             Section(header:
-                Text("TOTAL: $100")
+                Text("TOTAL: $\(totalPrice, specifier: "%.2f")")
             ) {
                 Button("Confirm order") {
                     // place the order
